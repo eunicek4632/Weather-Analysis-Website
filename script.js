@@ -48,12 +48,6 @@ xhr.onreadystatechange = function () {
         calc_height();
         find_cloud_base();
         set_margin();
-        console.log("Average Temperature");
-        console.log(avg_temp_arr);
-        console.log("Dew Point");
-        console.log(dew_pt);
-        console.log("Temp");
-        console.log(temp);
         graph();
     }
 };
